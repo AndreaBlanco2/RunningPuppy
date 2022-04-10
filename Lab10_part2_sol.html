@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="author" content="Bambang">
+			<title>Running Puppy</title>
+			
+			<script src="./JS/puppy.js">
+				// setInterval(runPuppy, 10);
+			</script>
+			<link href="./css/Lab10_part2.css" rel="stylesheet">
+		</head>
+		<body onload="puppy()">
+			<h1>Running Puppy</h1>
+				<select name="speed" id="speed" onclick="puppy()">
+					<option value="slow">Slow</option>
+					<option value="moderate">Moderate</option>
+					<option value="fast">Fast</option>
+				</select>
+			<p>
+				<img id="puppy" src="images/puppy.gif" alt="puppy running">   
+
+			</p>
+		</body>
+</html>
